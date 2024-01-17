@@ -41,9 +41,6 @@ Docker is utilized to containerize the Redis instance, ensuring a consistent and
 
 ## Assumptions and Decisions
 
-### Default Branch Name
-The default branch is assumed to be 'main' instead of 'master' due to the industry trend of transitioning away from 'master' as the default branch name.
-
 ### Redis Container Ports
 The Redis container is configured to expose ports 6379 and 8001 for Redis and Redis Commander, respectively. This decision facilitates easy interaction and monitoring of the Redis instance.
 
