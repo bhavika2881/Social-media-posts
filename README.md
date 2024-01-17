@@ -25,7 +25,7 @@ node index.js
 
 5. Open the localhost:3000.
 
-## Infrastructure and Scaling Write-up
+## Infrastructure and Scaling
 
 ### Database
 The application uses MongoDB to store post data. MongoDB provides flexibility and scalability, making it suitable for storing and retrieving posts efficiently.
@@ -39,7 +39,7 @@ Express Rate Limit middleware is employed to prevent abuse and ensure fair usage
 ### Docker
 Docker is utilized to containerize the Redis instance, ensuring a consistent and reproducible environment across different systems.
 
-## Assumptions and Decisions
+## Assumptions
 
 ### Redis Container Ports
 The Redis container is configured to expose ports 6379 and 8001 for Redis and Redis Commander, respectively. This decision facilitates easy interaction and monitoring of the Redis instance.
